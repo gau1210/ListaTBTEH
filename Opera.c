@@ -39,11 +39,11 @@ int main(){
     float a=3,b=2, result;
     int c;
     
-    printf("digite um valor");
+    printf("digite um para soma; dois para subitração; tres para multiplicar");
     scanf("%d",&c);
     
     opera(a,b,result);
-    printf("%d",result);
+    printf("%f",result);
       
     return 0;
     
