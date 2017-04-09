@@ -17,7 +17,7 @@ int main()
 {
 	int a,b;
 	
-	printf("digite um valor");
+    printf("digite um valor");
     scanf("%d",&a);
     printf("digite outro valor");
     scanf("%d",&b);
