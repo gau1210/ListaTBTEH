@@ -14,16 +14,16 @@ void divisores(int a, int b[])
             
             div= a%i;
             
-			if(div== 0){
+		if(div== 0){
                 
-				b[num]=i;
-				num++;
+		b[num]=i;
+		num++;
 				
-				printf("O valor e:d%\n",num);
+	printf("O valor e:d%\n",num);
 				
             }
-		}
-	}
+        }
+    }
 }
 
 int main()
