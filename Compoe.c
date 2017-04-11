@@ -2,31 +2,32 @@
 #include <stdlib.h>
 #include <math.h>
 
- float compoe(int a, int b)
+ void compoe(int a, int b)
 {
     
-    float real,inteiro,valor,result;
-    real=(float)b;
-    inteiro=(float)a;
+    float real=(float)b;
     
-    while (real>1.0){
+    while (real>1)
         
-        valor=real*0.1;
-    }
-    result=valor+inteiro;
+    real*=0.1;                
+    real+=(float)a; 
     
-    printf("O valor e:%d",result);  
+    printf("O valor e:%f",real);   
+    system("pause");
+ 
 }
 
  int main(){
         
-        int a, b;
+        int a,real;
+        float b;
+       
         
         printf("digite um valor inteiro");
         scanf("%d",&a);
         printf("digite um valor fracionado");
-        scanf("%d",&b);
+        scanf("%f",&b);
         
-        //compoe(a,b,result);
+        compoe(a,real);
         return 0;       
 }
