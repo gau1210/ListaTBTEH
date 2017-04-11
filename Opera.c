@@ -5,48 +5,46 @@ float opera ( float a, float b, int c){
     
     float result;
     
-    if (c==0){
+    if (c==0)
         
        result= a+b;
-       return result;
         
-    }
-        if (c==1){
+    
+        if (c==1)
             
         result= b-a;
-        return result;
             
-        }
+
         
-        if (c==2){
+        if (c==2)
             
         result= a/b;
-        return result;
             
-        }
+  
         if(c==3){
             
          result= a*b;
-         return result;
-       
-        }
-  
+         
     }
-    
-    
+       printf("%f",result);
+       system("pause");
+            
+}
+       
 int main(){
     
-    float a=3,b=2, result;
+    float a,b,result;
     int c;
     
-    printf("digite um para soma; dois para subitração; tres para multiplicar");
+    printf("digite um valor");
+    scanf("%f",& a);
+    printf("digite um valor");
+    scanf("%f",& b);
+    printf("digite 0 para soma; 1 para subitração; 2 para dividi; 3 para multiplicar");
     scanf("%d",&c);
     
     opera(a,b,result);
-    printf("%f",result);
-      
     return 0;
     
-}
-            
+}             
             
